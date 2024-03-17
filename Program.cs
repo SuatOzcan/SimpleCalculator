@@ -9,7 +9,7 @@
             char selection = SelectMathematicalOperation();
             float result = PerformMathematicalOperation(selection, first, second );
             Console.WriteLine(result);
-            Console.WriteLine("Press any key to close the application.")
+            Console.WriteLine("Press any key to close the application.");
             Console.ReadKey();
         }
 
